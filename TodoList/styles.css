@@ -1,0 +1,78 @@
+/*GENERAL*/
+*{
+    background-color: #F9EAE1;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*FORM*/
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 10rem;
+}
+
+label{
+    background-color: #F18805;
+    width: 50%;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:white;
+    padding-top:20px;
+    border-radius: 20px 20px 0 0;
+    font-size: 2rem;
+}
+
+#input{
+    padding: 0 10px;
+    width: 49%;
+    height: 60px;
+    border: 1px solid rgb(255, 191, 113);
+    background-color:rgb(253, 240, 215);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.todos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    width: 50%;
+    padding: 0; 
+}
+
+.todos li{
+    height: 30px;
+    padding: 15px 0;
+    width:100%;
+    background-color:rgb(253, 240, 215);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.todos li.done{
+    text-decoration: line-through;
+    background-color: aliceblue;
+}
+
+/*LEGENDES*/
+span{
+    color: goldenrod;
+    margin-top: 50px;
+    font-size: 0.9rem;
+    line-height: 1.7rem;
+
+}
+
+/*RESPONSIVE*/
+
+@media  screen and (max-width:600px){
+    .todos li{
+        overflow: scroll;
+    }
+}
