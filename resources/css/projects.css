@@ -1,0 +1,47 @@
+
+
+img{
+    width: 270px;
+    height: auto;
+    border-radius: 5px;
+    
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+}
+
+.smoothie-donut, .together, .todolist{
+    width: 70%;
+    margin: 15px auto;
+    background-color: rgb(254, 245, 234);
+    padding-bottom: 10px;
+}
+
+.smoothie-donut{
+    border-radius: 50px 50px 0 0;
+}
+
+.todolist{
+    border-radius: 0 0 50px 50px;
+}
+
+.presentation{
+    width: 100%;
+    text-align:center;
+}
+
+.note{
+    width:80%;
+    margin: auto;
+    text-align: center;
+}
+
+h3{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 15px 0;
+    color: brown;
+    
+}
