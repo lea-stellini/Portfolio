@@ -1,0 +1,92 @@
+/*GENERAL*/ 
+*{
+    margin:0 auto;
+    font-family: 'Fredoka', sans-serif;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+/*HEADER*/
+.logo-container{
+    min-height: 320px;
+    background-image: url("../images/background-header.jpg");
+    background-size: cover;
+}
+
+header h1{
+    font-family: 'Fredoka One', cursive;
+    color:whitesmoke;
+    font-size: 100px;
+    text-align:center;
+    padding-top:30px;
+}
+
+header p{
+    text-align: center;
+    color: lightgoldenrodyellow;
+    font-size: 30px;
+    padding: 40px 0;
+}
+
+.navbar{
+    background-color: white;
+    border: solid 0.5px #E67360;
+    height: 70px;
+   
+}
+
+.navbar ul{
+    height:70px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.navbar li{
+    text-decoration: none;
+    display: inline;
+  
+    
+}
+
+.navbar a{
+    border: solid 2px #E67360;
+    text-decoration: none;
+    font-family: 'Fredoka', sans-serif;
+    color: white;
+    background-color: #E67360;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+.navbar a:hover{
+    background-color: white;
+    border: solid 2px #E67360;
+    color: #E67360;
+}
+
+/*FOOTER*/
+
+footer{
+    background: purple;
+    padding-bottom: 20px;
+    text-align:center;
+}
+
+footer p{
+    color: white;
+    padding: 10px 0;
+}
+
+footer a{
+    color:white;
+    font-size: 16px;
+}
+
+footer a:hover{
+    color:rgb(197, 183, 210);
+}
