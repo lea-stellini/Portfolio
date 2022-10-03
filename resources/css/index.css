@@ -39,7 +39,7 @@
 
 .skill{
     display: grid;
-    grid-template: 100px / repeat(9,100px);
+    grid-template: 100px / repeat(8,100px);
     
     margin: 1rem 5rem;
     justify-content: space-around;
@@ -60,36 +60,24 @@
     grid-area:1/3;
 }
 
-.fa-node{
+.fa-git{
     grid-area:1/4;
 }
 
-.fa-git{
+.fa-github{
     grid-area:1/5;
 }
 
-.fa-github{
+.fa-figma{
     grid-area:1/6;
 }
 
-.fa-figma{
+.fa-terminal{
     grid-area:1/7;
 }
 
-.fa-terminal{
-    grid-area:1/8;
-}
-
 .fa-chrome{
-    grid-area:1/9;
-}
-
-.sr-only {
-    height: 1px;
-    width: 1px;
-    clip: rect(1px, 1px, 1px, 1px);
-    overflow: hidden;
-    position: absolute;
+    grid-area:1/8;
 }
 
 /*RESPONSIVE */ 
@@ -98,7 +86,7 @@
 @media only screen and (max-width: 900px){
 
     .skill{
-        grid-template: repeat(3,100px) / repeat(3,100px);
+        grid-template: repeat(4,100px) / repeat(2,100px);
     }
 
     .fa-html5{
@@ -113,28 +101,24 @@
         grid-area:1/3;
     }
 
-    .fa-node{
-        grid-area:2/1;
-    }
-
     .fa-git{
-        grid-area:2/2;
+        grid-area:1/4;
     }
 
     .fa-github{
-        grid-area:2/3;
+        grid-area:2/1;
     }
 
     .fa-figma{
-        grid-area:3/1;
+        grid-area:2/2;
     }
 
     .fa-terminal{
-        grid-area:3/2;
+        grid-area:2/3;
     }
 
     .fa-chrome{
-        grid-area:3/3;
+        grid-area:2/4;
     }
 
     #presentation{
