@@ -14,7 +14,6 @@ img{
 
 .container{
     margin: 15px auto;
-    padding-bottom: 10px;
     width: 30%;
 }
 
@@ -23,17 +22,12 @@ img{
     border: solid 1px brown;
     background-color: rgb(249, 235, 209);
     filter: grayscale(0.5);
+    padding-bottom: 10px;
 }
 
 .presentation:hover{
     border: dotted 1px brown;
     filter: grayscale(0);
-}
-
-.note{
-    width:80%;
-    margin: auto;
-    text-align: center;
 }
 
 h3{
@@ -42,4 +36,25 @@ h3{
     margin: 15px 0;
     color: brown;
     
+}
+
+@media only screen and (max-width: 1050px){
+    .project{
+        flex-direction: column;
+    }
+
+    .container{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    img{
+        width: 200px;
+        height: auto;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
 }
