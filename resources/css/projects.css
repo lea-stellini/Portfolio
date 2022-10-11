@@ -1,5 +1,4 @@
-
-
+/*PROJECTS*/
 img{
     width: 270px;
     height: 151px;
@@ -37,6 +36,8 @@ h3{
     color: brown;
     
 }
+
+/*RESPONSIVE*/
 
 @media only screen and (max-width: 1050px){
     .project{
