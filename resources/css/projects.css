@@ -2,34 +2,32 @@
 
 img{
     width: 270px;
-    height: auto;
+    height: 151px;
     border-radius: 5px;
-    
 }
 
 .project{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.smoothie-donut, .together, .todolist{
-    width: 70%;
+.container{
     margin: 15px auto;
-    background-color: rgb(254, 245, 234);
     padding-bottom: 10px;
-}
-
-.smoothie-donut{
-    border-radius: 50px 50px 0 0;
-}
-
-.todolist{
-    border-radius: 0 0 50px 50px;
+    width: 30%;
 }
 
 .presentation{
-    width: 100%;
     text-align:center;
+    border: solid 1px brown;
+    background-color: rgb(249, 235, 209);
+    filter: grayscale(0.5);
+}
+
+.presentation:hover{
+    border: dotted 1px brown;
+    filter: grayscale(0);
 }
 
 .note{
