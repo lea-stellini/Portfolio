@@ -11,80 +11,78 @@
     <!-- JS FILE -->
     <script src="./javascript/script.js" defer></script>
     
-
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-<header>
-    <a href="./index.html"><h1>Léa Stellini</h1></a>
-
-    <nav>
-        <ul>
-            <li><a href="./index.html"><span class="french">A propos</span><span class="english done">About</span> </a></li>
-            <li><a href="./projects.html"><span class="french">Projets</span><span class="english done">projects</span> </a></li>
-            <li><a href="./contact.html">contact</a></li>
-        </ul>
-    </nav>
-</header>
 
 <body>
+    <header>
+        <a href="./index.html"><h1>Léa Stellini</h1></a>
+    
+        <nav>
+            <ul>
+                <li><a href="./index.html"><span class="french">A propos</span><span class="english done">About</span> </a></li>
+                <li><a href="./projects.html"><span class="french">Projets</span><span class="english done">projects</span> </a></li>
+                <li><a href="./contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header> 
+
     <div class="controls">
         <label class="toggle-switch" >
-          <span class="french">Français</span><span class="english done">French</span>  
+          <span class="french">Français</span>
+          <span class="english done">French</span>  
           <input type="checkbox" id="dark-mode-toggle">
           <div class="toggle-switch-border" id="toggle">
             <div class="toggle-switch-dot" ></div>
           </div>
           <span class="french">Anglais</span><span class="english done">English</span> 
         </label>
-      </div>
+    </div>
 
-    <section id="about">
-        <div id="presentation">
-            <img src="./resources/images/me.jpg" alt="Léa Stellini" id="myself">
+    <main id="about">
+        
+            <section id="presentation">
+                <img src="./resources/images/me.jpg" alt="Léa Stellini" id="myself">
 
-            <div class="about">
-                <h2 class="english done">About me</h2>
-                <h2 class="french">A Propos de moi</h2>
-                <br>
-                <p class="english done" id="english">Hi! I'm Léa Stellini and i'am passionate about the world of the web. <br>
-                I've strat learning how to code in 2020 during the pandemic and since then I never stop. <br> 
-                In April 2022, I decided to fully embark on this adventure to become a front-end developer.<br>
-                You can find my three latest projects in the projects section.<br>
-                I hope  <a href="./contact.html">to hear from you</a> :)  </p>
-                <p class="french" id="french">Bienvenue! Je m'appelle Léa Stellini et je suis passionnée par l'univers du web.<br>
+                <article class="about">
+                    <h2 class="english done">About me</h2>
+                    <h2 class="french">A Propos de moi</h2>
+                    
+                    <p class="english done" id="english">Hi! I'm Léa Stellini and i'am passionate about the world of the web. <br>
+                    I've strat learning how to code in 2020 during the pandemic and since then I never stop. <br> 
+                    In April 2022, I decided to fully embark on this adventure to become a front-end developer.<br>
+                    You can find my three latest projects in the projects section.<br>
+                    I hope  <a href="./contact.html">to hear from you</a> :)  </p>
+                    
+                    <p class="french" id="french">Bienvenue! Je m'appelle Léa Stellini et je suis passionnée par l'univers du web.<br>
                     J'ai commencé à apprendre à coder en 2020 pendant le confinement et depuis je n'ai pas arrêté.<br>
                     En avril 2022, j'ai décidé de me lancer pleinement dans cette aventure afin de devenir développeuse front-end.<br>
                     Vous pouvez trouver mes 3 derniers projets dans l'onglet <a href="./projects.html">PROJETS</a>
                     N'hésitez pas à <a href="./contact.html">me contacter</a> ✉️  </p>
-            </div>
+                </article>
+            </section>
             
-           
-        </div>
-        
-        <div id="skills">
-            <h2 class="english done">Skills</h2>
-            <h2 class="french">Compétences</h2>
-            <div class="skill">
-                <i class="fa-brands fa-html5"></i>
-                <i class="fa-brands fa-css3-alt"></i>
-                <i class="fa-brands fa-js"></i>
-                <i class="fa-brands fa-git"></i>
-                <i class="fa-brands fa-github"></i>
-                <i class="fa-brands fa-figma" ></i>
-                <i class="fa-solid fa-terminal"></i>
-                <i class="fa-brands fa-chrome"></i>    
-            </div>
-        </div>
+            <section id="skills">
+                <h2 class="english done">Skills</h2>
+                <h2 class="french">Compétences</h2>
+                <div class="skill">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-git"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-figma" ></i>
+                    <i class="fa-solid fa-terminal"></i>
+                    <i class="fa-brands fa-chrome"></i>    
+                </div>
+            </section>
+    </main>
 
-    </section>
-
-   
+    <footer>
+        <p>Made by Léa Stellini 🌿 in 2022 </p>
+    </footer>
     
 </body>
 
-<footer>
-   
-    <p>Made by Léa Stellini 🌿 in 2022 </p>
-</footer>
 </html>

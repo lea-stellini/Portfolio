@@ -9,47 +9,47 @@
     <!-- CSS FILES -->
     <link rel="stylesheet" href="./resources/css/commun.css">
     <link rel="stylesheet" href="./resources/css/projects.css">
+
     <!-- JS FILE -->
     <script src="./javascript/script.js" defer></script>
     
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
 </head>
-<header>
-    <a href="./index.html"><h1>Léa Stellini</h1></a>
 
-    <nav>
-        <ul>
-            <li><a href="./index.html"><span class="french">A propos</span><span class="english done">About</span> </a></li>
-            <li><a href="./projects.html"><span class="french">Projets</span><span class="english done">projects</span> </a></li>
-            <li><a href="./contact.html">contact</a></li>
-        </ul>
-    </nav>
-
-</header>
 <body>
+    <header>
+        <a href="./index.html"><h1>Léa Stellini</h1></a>
+    
+        <nav>
+            <ul>
+                <li><a href="./index.html"><span class="french">A propos</span><span class="english done">About</span> </a></li>
+                <li><a href="./projects.html"><span class="french">Projets</span><span class="english done">projects</span> </a></li>
+                <li><a href="./contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <div class="controls">
         <label class="toggle-switch">
           <span class="french">Français</span><span class="english done">French</span>  
           <input type="checkbox" id="dark-mode-toggle">
           <div class="toggle-switch-border" id="toggle">
-            <div class="toggle-switch-dot"></div>
+                <div class="toggle-switch-dot"></div>
           </div>
           <span class="french">Anglais</span><span class="english done">English</span> 
         </label>
-      </div>
+    </div>
 
-    <section id="projects">
+    <main id="projects">
+        <section class="project">
+            <h2 class="english done">Projects</h2>
+            <h2 class="french">Projets</h2>
 
-        <h2 class="english done">Projects</h2>
-        <h2 class="french">Projets</h2>
-
-        <div class="project">
             <div class="container">
                 <div class="presentation">
                     <h3 class="english done">To the infinite and beyond !</h3>
                     <h3 class="french">Vers l'infini et au-delà !</h3>
-                    <a href="https://github.com/lea-stellini/JS_Rocket" target="_blank"><img src="./resources/images/JS_rocket.png" alt=""></a>
-                    
+                    <a href="https://github.com/lea-stellini/JS_Rocket" target="_blank"><img src="./resources/images/JS_rocket.png" alt=""></a> 
                 </div>
             </div>
 
@@ -68,17 +68,12 @@
                     <!--<a href=""><i class="fa-brands fa-github"></i></a>-->
                 </div>
             </div>
-
-        </div>
-
-    </section>
+        </section>
+    </main>
 
     <footer>
-   
         <p>Made by Léa Stellini 🌿 in 2022 </p>
     </footer>
   
 </body>
-
-
 </html>

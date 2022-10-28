@@ -9,13 +9,11 @@ h1{
     font-size:3.5rem;
     color: white;
     font-weight: 200;
-    
 }
 
 a{
     text-decoration: none ;
     color: #D0ADA7; 
-    ;
 }
 
 h2{
@@ -41,16 +39,12 @@ header{
     text-align: center;
     flex-direction: row;
     align-items: center;
-
     padding: 12px 5px;
     height:50px;
-
     position: sticky;
     top: 0;
     z-index: 10;
-
     background-color:#D0ADA7  ;
-
 }
 
 body .controls {
@@ -65,7 +59,6 @@ body .controls {
 ul{
     list-style: none;
     display: flex;
-   
 }
 
 li{
@@ -93,10 +86,9 @@ li a:hover{
     font-size: .875rem;
     cursor: pointer;
     color: #4D243D;
-    
-  }
+}
   
-  .toggle-switch-border {
+.toggle-switch-border {
     display: inline-flex;
     align-items: center;
     width: 60px;
@@ -106,28 +98,28 @@ li a:hover{
     box-sizing: border-box;
     margin-inline-start: 8px;
     margin: 0 10px;
-  }
+}
   
-  .toggle-switch input {
+.toggle-switch input {
     display: none;
-  }
+}
   
-  .toggle-switch-dot {
+.toggle-switch-dot {
     width: 28px;
     height: 28px;
     border-radius: 50%;
     background: #D0ADA7;
     transform: translate3d(3px, 0, 0);
     transition: transform .1s ease-in-out;
-  }
+}
   
-  .toggle-switch input:checked + * .toggle-switch-dot {
+.toggle-switch input:checked + * .toggle-switch-dot {
     transform: translate3d(26px, 0, 0);
-  }
+}
 
-  .done{
+.done{
     display: none;
-  }
+}
 
 /* ICONS */ 
 
@@ -145,11 +137,9 @@ footer{
     align-items: flex-end;
     bottom:0;
     width:100%;
-    
     position: fixed;
-  
+    background-color: white;
 }
-
 
 /*RESPONSIVE*/
 
@@ -212,6 +202,3 @@ footer{
     }
 
 }
-
-
-
