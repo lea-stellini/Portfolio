@@ -117,10 +117,6 @@ li a:hover{
     transform: translate3d(26px, 0, 0);
 }
 
-.done{
-    display: none;
-}
-
 /* ICONS */ 
 
 .fa-brands, .fa-solid{
