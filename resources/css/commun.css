@@ -5,20 +5,45 @@
     max-height: auto;
 }
 
+body{
+    background-color: var(--background);
+
+    --light-background: #fffff9;
+    --light-primary:#000000;
+    --light-secondary: #4D243D;
+    --light-tertiary: #ffffff; 
+    --light-link:#D0ADA7;
+    --light-header:#D0ADA7;
+
+    --dark-background: #584B4B;
+    --dark-primary:#ffffe3;
+    --dark-secondary: #D0ADA7;
+    --dark-tertiary: #D0ADA7; 
+    --dark-link:#4D243D;
+    --dark-header:#4D243D;
+
+    --background: var(--light-background);
+    --primary:var(--light-primary);
+    --secondary: var(--light-secondary);
+    --tertiary: var(--light-tertiary);
+    --link:var(--light-link);
+    --header:var(--light-header);
+}
+
 h1{
     font-size:3.5rem;
-    color: white;
+    color: var(--tertiary);
     font-weight: 200;
 }
 
 a{
     text-decoration: none ;
-    color: #D0ADA7; 
+    color: var(--link); 
 }
 
 h2{
     font-size: 2rem;
-    color:#4D243D;
+    color:var(--secondary);
     text-transform: uppercase;
     text-align: center;
 }
@@ -26,6 +51,7 @@ h2{
 p{
     font-size: 1.2rem;
     line-height: 2rem;
+    color:var(--primary);
 }
 
 section{
@@ -34,6 +60,11 @@ section{
 
 /* HEADER */
 header{
+    display:flex;
+    flex-direction: column;
+}
+
+nav{
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -44,7 +75,7 @@ header{
     position: sticky;
     top: 0;
     z-index: 10;
-    background-color:#D0ADA7  ;
+    background-color:var(--header)  ;
 }
 
 body .controls {
@@ -69,8 +100,7 @@ li{
 
 li a{
     text-decoration: none;
-    color: white;
-}
+    color: var(--tertiary)}
 
 li a:hover{
     text-decoration: underline;
@@ -85,7 +115,7 @@ li a:hover{
     font-weight: 700;
     font-size: .875rem;
     cursor: pointer;
-    color: #4D243D;
+    color: var(--secondary);
 }
   
 .toggle-switch-border {
@@ -93,7 +123,7 @@ li a:hover{
     align-items: center;
     width: 60px;
     height: 36px;
-    border: 1px solid #D0ADA7; 
+    border: 1px solid var(--header); 
     border-radius: 20px;
     box-sizing: border-box;
     margin-inline-start: 8px;
@@ -108,7 +138,7 @@ li a:hover{
     width: 28px;
     height: 28px;
     border-radius: 50%;
-    background: #D0ADA7;
+    background: var(--header);
     transform: translate3d(3px, 0, 0);
     transition: transform .1s ease-in-out;
 }
@@ -123,6 +153,7 @@ li a:hover{
     font-size: 2.5rem;
     width: 2rem;
     padding: 1rem;
+    color:var(--primary);
 }
 
 /*FOOTER*/
@@ -134,7 +165,7 @@ footer{
     bottom:0;
     width:100%;
     position: fixed;
-    background-color: white;
+    background-color: var(--background);
 }
 
 /*RESPONSIVE*/
