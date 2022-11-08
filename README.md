@@ -4,6 +4,8 @@ For now, you'll find 3 projects.
 - JS_Rocket 🚀. 
 - Rock 🪨 Paper📄 Sissors✂️. 
 - To do List 🗒. 
+
+NEW : I recently added a dark mode 🌚.  
   
-I'm still working on this project, I plan to have a dark mode 🌚.  
-There is already a toggle switch, but it doesn't do anything yet. 
+This porfolio is still in progress 🌱.
+
