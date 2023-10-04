@@ -1,0 +1,7 @@
+.divider{
+    width: 40%;
+    height: 3px;
+    border: none;
+    background-color: var(--secondary);
+    margin: 20px auto 0 auto;
+}

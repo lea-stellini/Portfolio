@@ -1,0 +1,18 @@
+.btn{
+    border: solid var(--primary) 2px;
+    background-color: var(--primary);
+    border-radius: 10px;
+    width: 94px;
+    height: 40px;
+    color: var(--white);
+    text-transform: uppercase;
+
+    &:hover{
+        cursor: pointer;
+    }
+
+    &:active{
+        background-color: var(--white);
+        color: var(--primary);
+    }
+}

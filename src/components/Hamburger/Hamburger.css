@@ -1,0 +1,49 @@
+@import "./../../utils/_variables.css";
+
+.hamburger{
+    width: 25px;
+    height: 25px;
+    display: none;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.burger{
+    width: 25px;
+    height: 3px;
+    border-radius: 10px;
+    background-color: black;
+    transform-origin: 1px;
+    transition: all 0.3s linear;
+}
+
+.burger1{
+    transform: rotate(45deg);
+    background-color: var(--primary);
+}
+.burger2{
+    transform: translateX(100%);
+    background-color: white;
+    opacity: 0;
+}
+.burger3{
+    transform: rotate(-45deg);
+    background-color: var(--primary);
+}
+
+.burgerNotOpen{
+    transform: rotate(0);
+}
+
+.burger2NotOpen{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+@media (max-width: 767px){
+ .hamburger{
+    display: flex;
+ } 
+}

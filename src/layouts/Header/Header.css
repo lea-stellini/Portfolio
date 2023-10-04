@@ -1,0 +1,65 @@
+@import "./../../utils/_variables.css";
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.header__img{
+    z-index: 11;
+}
+
+.header__nav{
+    width: 80%;
+}
+
+.header__nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.header__nav ul li a{
+    text-decoration: none;
+    color: var(--black);
+
+    &:hover{
+        text-decoration: dotted underline;
+        color: var(--primary);
+    }
+}
+
+.nav__hamburger{
+    background-color: var(--white);
+    width: 100vw;
+    height: 50vh;
+    display: inline;
+    position:absolute;
+    top: -5px;
+    left: -8px;
+    padding-top: 45px;
+    z-index: 10;
+}
+
+@media (max-width: 767px){
+    .header{
+        justify-content: space-between;
+    }
+
+    .header__nav ul{
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .header__nav ul li{
+        padding: 15px 0;
+    }
+
+    .none{
+        display: none;
+    }
+   }
