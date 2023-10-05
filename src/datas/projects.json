@@ -1,0 +1,91 @@
+[
+    {
+        "id":"a1",
+        "title": "Bookie",
+        "technologies": ["Html", "css"],
+        "description": "Booki est un site internet permettant aux usagers de trouver des hébergements et activités dans la ville de leur choix. Pour ce projet, j’ai été chargé d’intégrer l’interface du site en HTML et CSS pour une version desktop, tablette et mobile.",
+        "competences": ["Savoir implémenter une interface responsive avec HTML et CSS", "Versionner son projet avec Git et Github", "Intégrer du contenu conformément à une maquette avec HTML et CSS", "Installer un environnement de développement web"],
+        "pictures": [
+            "../../../images/Projet2/bookie1.png"
+        ],
+        "others": [
+            "../../../images/Projet2/bookie2.png",
+            "../../../images/Projet2/bookie1-mobile.png",
+            "../../../images/Projet2/bookie2-mobile.png",
+            "../../../images/Projet2/bookie3-mobile.png",
+            "../../../images/Projet2/bookie4-mobile.png",
+            "../../../images/Projet2/bookie5-mobile.png",
+            "../../../images/Projet2/bookie6-mobile.png",
+            "../../../images/Projet2/bookie1-tab.png",
+            "../../../images/Projet2/bookie2-tab.png",
+            "../../../images/Projet2/bookie3-tab.png"
+        ]
+    },
+    {
+        "id":"a2",
+        "title": "Sophie Buel - Portfolio ",
+        "technologies": ["Html", "css"],
+        "description": "Booki est un site internet permettant aux usagers de trouver des hébergements et activités dans la ville de leur choix. Pour ce projet, j’ai été chargé d’intégrer l’interface du site en HTML et CSS pour une version desktop, tablette et mobile.",
+        "competences": ["Savoir implémenter une interface responsive avec HTML et CSS", "Versionner son projet avec Git et Github", "Intégrer du contenu conformément à une maquette avec HTML et CSS", "Installer un environnement de développement web"],
+        "pictures": [
+            "../../../images/Projet3/Bluel1.png"
+        ],
+        "others": [
+            "../../../images/Projet3/Bluel1.png",
+            "../../../images/Projet3/Bluel1.png",
+            "../../../images/Projet3/Bluel1.png",
+            "../../../images/Projet3/Bluel1.png",
+            "../../../images/Projet3/Bluel1.png",
+            "../../../images/Projet3/Bluel1.png",
+            "../../../images/Projet3/Bluel1.png"
+        ]
+    },
+    {
+        "id":"a3",
+        "title": "Nina Carducci - Photographe",
+        "technologies": ["Html", "css"],
+        "description": "Booki est un site internet permettant aux usagers de trouver des hébergements et activités dans la ville de leur choix. Pour ce projet, j’ai été chargé d’intégrer l’interface du site en HTML et CSS pour une version desktop, tablette et mobile.",
+        "competences": ["Savoir implémenter une interface responsive avec HTML et CSS", "Versionner son projet avec Git et Github", "Intégrer du contenu conformément à une maquette avec HTML et CSS", "Installer un environnement de développement web"],
+        "pictures": [
+            "../../../images/Projet5/nina1.png"
+        ],
+        "others": [
+            "../../../images/Projet5/nina2.png",
+            "../../../images/Projet5/nina3.png",
+            "../../../images/Projet5/nina4.png",
+            "../../../images/Projet5/nina5.png",
+            "../../../images/Projet5/nina6.png",
+            "../../../images/Projet5/nina7.png",
+            "../../../images/Projet5/nina8.png"
+        ]
+    },
+    {
+        "id":"a4",
+        "title": "Kasa",
+        "technologies": ["Html", "css"],
+        "description": "Booki est un site internet permettant aux usagers de trouver des hébergements et activités dans la ville de leur choix. Pour ce projet, j’ai été chargé d’intégrer l’interface du site en HTML et CSS pour une version desktop, tablette et mobile.",
+        "competences": ["Savoir implémenter une interface responsive avec HTML et CSS", "Versionner son projet avec Git et Github", "Intégrer du contenu conformément à une maquette avec HTML et CSS", "Installer un environnement de développement web"],
+        "pictures": [
+            "../../../images/Projet6/kasa1.png"
+        ],
+        "others": [
+            "../../../images/Projet6/kasa2.png",
+            "../../../images/Projet6/kasa3.png",
+            "../../../images/Projet6/kasa4.png",
+            "../../../images/Projet6/kasa5.png",
+            "../../../images/Projet6/kasa6.png",
+            "../../../images/Projet6/kasa7.png"
+        ]
+    },
+    {
+        "id":"a5",
+        "title": "Mon Vieux Grimoire",
+        "technologies": ["Html", "css"],
+        "description": "Booki est un site internet permettant aux usagers de trouver des hébergements et activités dans la ville de leur choix. Pour ce projet, j’ai été chargé d’intégrer l’interface du site en HTML et CSS pour une version desktop, tablette et mobile.",
+        "competences": ["Savoir implémenter une interface responsive avec HTML et CSS", "Versionner son projet avec Git et Github", "Intégrer du contenu conformément à une maquette avec HTML et CSS", "Installer un environnement de développement web"],
+        "pictures": [
+            "../../../images/Projet7/grimoire1.png"
+        ]
+    }
+
+]
