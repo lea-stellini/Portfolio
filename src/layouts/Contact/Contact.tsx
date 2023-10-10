@@ -9,7 +9,7 @@ const Contact = () => {
         <Divider />
         <div className='contact__container' >
             <h2>Contact</h2>
-            <p>Lorem ipsum dolor sit amet,usmod tempor incididunt</p>
+            <p>N'hésitez pas à me contacter via ce formualire, ou par <a href="mailto:lea.stellini@gmail.com" className='email'>email</a> !</p>
             <form
                 action="https://formsubmit.co/lea.stellini@gmail.com"
                 method="POST"
