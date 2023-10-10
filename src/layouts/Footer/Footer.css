@@ -1,0 +1,15 @@
+.footer__container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 80%;
+    height: 80px;
+    margin: auto;
+}
+
+.footer__container img{
+    width: 30px;
+    height: 30px;
+    padding: 10px 30px;
+    cursor: pointer;
+}

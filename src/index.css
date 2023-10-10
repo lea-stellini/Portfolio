@@ -7,12 +7,12 @@ h2{
   text-transform: uppercase;
 }
 
-h2, h3{
+h2, h3, h4{
   font-size: 24px;
   text-align: center;
 }
 
-p{
+p, label{
   font-size: 20px;
 }
 
@@ -24,9 +24,15 @@ h1, h2, li{
   font-family: 'Roboto', sans-serif;
 }
 
-h3, p{
+h3, p, label{
   font-family: 'Montserrat';
   font-weight: 400;
+}
+
+h4{
+  font-family: 'Montserrat';
+  font-weight: 600;
+  margin-top: 0;
 }
 
 @media (max-width: 767px){
@@ -38,7 +44,7 @@ h3, p{
     font-size: 20px;
   }
 
-  p{
+  h4, p, label{
     font-size: 16px;
   }
 }

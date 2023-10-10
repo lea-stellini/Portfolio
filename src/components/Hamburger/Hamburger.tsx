@@ -1,7 +1,10 @@
 import './Hamburger.css'
 
+type Props = {
+    isOpen: boolean;
+}
 
-function Hamburger({isOpen}) {
+function Hamburger({isOpen} : Props) {
  
     return(
         <div className="hamburger">

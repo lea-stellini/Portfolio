@@ -40,9 +40,7 @@ function Skills(){
                         </div>
                     </div>
                 </div>
-                <div className='btn__cv'>
-                    <Button title="CV"/>
-                </div>
+                <Button title="CV"/>
             </div>
         </>
     )

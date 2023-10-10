@@ -1,0 +1,33 @@
+.contact__container{
+    width: 80%;
+    margin: auto;
+}
+
+.contact__container p{
+    text-align: center;
+}
+
+.form{
+    width: 50%;
+    margin:auto;
+}
+
+.form__input{
+    padding: 10px 0;
+}
+
+.form__input input, .form__input textarea{
+    width: 100%;
+    border-radius: 10px;
+    border: solid 1px var(--primary);
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.form__email{
+    height: 30px;
+}
+
+.form__message{
+    height: 80px;
+}

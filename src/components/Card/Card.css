@@ -1,0 +1,78 @@
+.card__container{
+	width: 40%;
+	float: left;
+}
+
+.card__container__inverted{
+    width:40%;
+    float:right;
+}
+
+.card{
+    width: 90%;
+	float: right;
+	margin-right: -85px;
+	border: 1px solid var(--secondary);
+	border-radius: 7px;
+	padding: 20px 25px;
+	position: relative;
+	box-shadow: 0 1px 6px rgba(0,0,0, 0.175);
+	background-color: #fff;
+}
+
+.card:after{
+	position: absolute;
+	top: 27px;
+	right: -14px;
+	display: inline-block;
+	border-top: 14px solid transparent;
+	border-left: 14px solid var(--primary);
+	border-right: 0 solid var(--primary);
+	border-bottom: 14px solid transparent;
+	content: " ";
+}
+
+.card__container__inverted .card{
+    float: left;
+	margin-left: -90px;
+}
+
+
+.card__container__inverted .card:after{
+	border-left-width: 0;
+	border-right-width: 14px;
+	left: -14px;
+	right: auto;
+}
+
+.card__list{
+    text-align: left;
+}
+
+.card__list p{
+    font-size: 16px;
+}
+
+@media (max-width: 767px){
+    .card__container{
+        width: 80%;
+        float: none;
+    }
+
+    .card__container__inverted{
+        width: 80%;
+    }
+
+    .card{
+        width: 100%;
+        float: none;
+    }
+
+    .card__container__inverted .card{
+        margin-left: -53px;
+    }
+
+    .card:after{
+        display: none;
+    }
+}

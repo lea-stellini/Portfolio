@@ -1,3 +1,8 @@
+.btn__container{
+    display: flex;
+    justify-content: center;
+}
+
 .btn{
     border: solid var(--primary) 2px;
     background-color: var(--primary);

@@ -1,0 +1,53 @@
+.path__container{
+    width:80%;
+    margin: auto;
+}
+
+.timeline{
+    padding: 30px 10px;
+	position: relative;
+}
+
+.timeline:before{
+	top: 100px;
+	bottom: 50px;
+	position: absolute;
+	content: " ";
+	width: 3px;
+	background: var(--secondary);
+	left: 50%;
+	margin-left: -2.5px;
+}
+
+.timeline > div{
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.timeline > div:after{
+	clear: both;
+}
+
+.timeline > div:before, .timeline > div:after{
+	content:" ";
+	display: table;
+}
+
+
+.timeline .dot{
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: var(--secondary);
+    position:absolute;
+    top: 36px;
+    left:50%;
+    margin-left: -8px;
+}
+
+@media (max-width: 767px){
+    .timeline:before, .dot{
+        display: none;
+    }
+}
+
