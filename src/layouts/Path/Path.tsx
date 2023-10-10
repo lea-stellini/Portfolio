@@ -5,7 +5,7 @@ import './Path.css';
 function Path(){
 
     return(
-        <>
+        <div id="path">
             <Divider />
             <div className='path__container'>
                 <div className='timeline'>
@@ -51,7 +51,7 @@ function Path(){
                 </div>
             
             </div>
-        </>
+        </div>
     )
 
 }

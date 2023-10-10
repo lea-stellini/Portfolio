@@ -3,8 +3,8 @@ import Divider from '../../components/Divider/Divider'
 
 function About(){
 
-    return(
-        <>
+    return( 
+        <div id='about'>
             <Divider />
             <div className='about'>
                 <h2>A Propos</h2>
@@ -14,7 +14,7 @@ function About(){
                     En avril 2022, j&apos;ai décidé de me lancer pleinement dans cette aventure afin de devenir développeuse front-end.
                 </p>
             </div>      
-        </>
+        </div>
         
     )
 

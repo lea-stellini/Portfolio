@@ -5,7 +5,7 @@ import './Skills.css';
 function Skills(){
     
     return(
-        <>
+        <div id="skills">
             <Divider />
             <div className='skills__container'>
                 <h2>Compétences</h2>
@@ -42,7 +42,7 @@ function Skills(){
                 </div>
                 <Button title="CV"/>
             </div>
-        </>
+        </div>
     )
 
 }

@@ -11,13 +11,13 @@
     height: 40px;
     color: var(--white);
     text-transform: uppercase;
+}
 
-    &:hover{
-        cursor: pointer;
-    }
+.btn:hover{
+    cursor: pointer;
+}
 
-    &:active{
-        background-color: var(--white);
-        color: var(--primary);
-    }
+.btn:active{
+    background-color: var(--white);
+    color: var(--primary);
 }

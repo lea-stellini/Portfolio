@@ -5,7 +5,7 @@ import Divider from '../../components/Divider/Divider';
 function Projects(){
 
     return(
-        <>
+        <div id="projects">
             <Divider />
             <div className='projects__container'>
                 <h2>Projets</h2>
@@ -22,7 +22,7 @@ function Projects(){
                 </div>
                 
             </div>
-        </>
+        </div>
     )
 
 }

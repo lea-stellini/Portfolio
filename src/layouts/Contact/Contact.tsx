@@ -5,9 +5,9 @@ import Button from '../../components/Button/Button';
 const Contact = () => {
 
   return (
-    <>
+    <div id="contact">
         <Divider />
-        <div className='contact__container'>
+        <div className='contact__container' >
             <h2>Contact</h2>
             <p>Lorem ipsum dolor sit amet,usmod tempor incididunt</p>
             <form
@@ -27,7 +27,7 @@ const Contact = () => {
                 <Button title="Envoyer" />
             </form>
         </div>
-    </>
+    </div>
   )
 }
 
