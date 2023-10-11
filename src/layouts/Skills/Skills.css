@@ -17,7 +17,7 @@
 }
 
 .skill__grid img{
-    width: 40%;
+    width: 20%;
     margin: auto;
 }
 
@@ -33,6 +33,10 @@
     .skill__grid{
         grid: auto-flow / 1fr 1fr 1fr;
         gap: 10% 0;
+    }
+
+    .skill__grid img{
+        width: 50%;
     }
 
     .btn__cv{

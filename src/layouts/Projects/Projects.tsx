@@ -14,7 +14,7 @@ function Projects(){
                     datas.map( data => {
                         return ( 
                         <div className='img__container' key={data.id}>
-                            <img src={data.pictures[0]}/>
+                            <img src={data.pictures[0]} alt={`photo du projet ${data.title}`}/>
                         </div>
                         )
                     })

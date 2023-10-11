@@ -16,8 +16,8 @@
         "id":"b2",
         "title": "back-end",
         "skills": [
-            "../../../images/skills/Expressjs.png",
-            "../../../images/skills/MongoDB.png",
+            "../../../images/skills/Expressjs.webp",
+            "../../../images/skills/MongoDB.webp",
             "../../../images/skills/node.svg"
         ]
     },
@@ -27,8 +27,7 @@
         "skills": [
             "../../../images/skills/figma.svg",
             "../../../images/skills/git.svg",
-            "../../../images/skills/gitlab.svg",
-            "../../../images/skills/chromeDevTool.svg"
+            "../../../images/skills/gitlab.svg"
         ]
     }
 ]

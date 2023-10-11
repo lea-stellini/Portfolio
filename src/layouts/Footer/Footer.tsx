@@ -9,8 +9,8 @@ function Footer() {
         <>
             <Divider/>
             <div className='footer__container'>
-                <a href=""><img src={linkedin}/></a>
-                <a href=""><img src={github}/></a>
+                <a href="https://www.linkedin.com/in/lea-stellini/"><img src={linkedin} alt="linkedin"/></a>
+                <a href="https://github.com/lea-stellini"><img src={github} alt="github"/></a>
             </div>
         </>
         
