@@ -27,7 +27,7 @@ function Projects(){
                     datas.map( data => {
                         return ( 
                         <div className='img__container' key={data.id} onClick={openModal}>
-                            <img src={data.cover[0]} alt={`photo du projet ${data.title}`}/>
+                            <img src={data.cover} alt={`photo du projet ${data.title}`}/>
                             <ProjectModal isOpen={modalIsOpen} isClose={closeModal}/>
                         </div>
                         )
