@@ -2,7 +2,6 @@ import Divider from '../../components/Divider/Divider';
 import Button from '../../components/Button/Button';
 import cv from '../../assets/CV_STELLINI_LEA.pdf';
 import './Skills.css';
-import skill from '../../assets/skills/html5.svg'
 
 function Skills(){
 

@@ -1,8 +1,8 @@
 import Modal from 'react-modal';
 import Button from '../Button/Button';
-import cover from '../../../images/Projet2/bookie1.webp';
-import img1 from '../../../images/Projet2/bookie2.png';
-import img2 from '../../../images/Projet2/bookie1-tab.png';
+import cover from '../../assets/images/Projet2/bookie1.webp';
+import img1 from '../../assets/images/Projet2/bookie2.png';
+import img2 from '../../assets/images/Projet2/bookie1-tab.png';
 import './Modal.css';
 
 type Props = {
@@ -23,7 +23,7 @@ function ProjectModal({isOpen, isClose}: Props) {
                     <h3>Technologies</h3>
                     <ul>
                         <li>HTML</li>
-                        {/* <li>CSS</li> */}
+                        <li>CSS</li>
                     </ul>
                     <h3>Descriptif</h3>
                     <p>Participation à la conception du site portfolio d’une architect d’intérieur.
