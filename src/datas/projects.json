@@ -6,7 +6,7 @@
         "description": "Booki est un site internet permettant aux usagers de trouver des hébergements et activités dans la ville de leur choix. Pour ce projet, j’ai été chargé d’intégrer l’interface du site en HTML et CSS pour une version desktop, tablette et mobile.",
         "competences": ["Savoir implémenter une interface responsive avec HTML et CSS", "Versionner son projet avec Git et Github", "Intégrer du contenu conformément à une maquette avec HTML et CSS", "Installer un environnement de développement web"],
         "cover": [
-            "./assets/images/Projet2/bookie1.webp"
+            "../assets/images/Projet2/bookie1.webp"
         ],
         "pictures": [
             "../../assets/images/Projet2/bookie2.png",
