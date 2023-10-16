@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "private": true,
-  "homepage": "https://lea-stellini.github.io/Portoflio-pro",
+  "homepage": "https://lea-stellini.github.io/Portfolio-pro",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
