@@ -1,0 +1,17 @@
+.error__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:  center;
+    height: 65vh;
+}
+
+.error__title{
+    color: var(--primary);
+    font-size: 60px;
+}
+
+.link{
+    cursor: pointer;
+    color: var(--primary);
+}

@@ -1,21 +1,9 @@
 import './Projects.css';
 import datas from '../../datas/projects.json'
 import Divider from '../../components/Divider/Divider';
-import ProjectModal from '../../components/Modal/Modal';
-import { useState } from 'react';
+import ProjectCard from '../../components/ProjectCard/ProjectCard';
 
 function Projects(){
-    const [modalIsOpen, setIsOpen] = useState(false);
-
-    function openModal() {
-        console.log("true")
-        setIsOpen(true);
-    }
-
-    function closeModal() {
-        console.log('false')
-        setIsOpen(false);
-    }
 
     return(
         <div id="projects">
@@ -26,10 +14,10 @@ function Projects(){
                 {
                     datas.map( data => {
                         return ( 
-                        <div className='img__container' key={data.id} onClick={openModal}>
-                            <img src={data.cover} alt={`photo du projet ${data.title}`}/>
-                            <ProjectModal isOpen={modalIsOpen} isClose={closeModal}/>
-                        </div>
+                        <ProjectCard link={`/project/${data.id}`} 
+                                    key={data.id} 
+                                    cover={data.cover} 
+                                    title={data.title} />
                         )
                     })
                 }

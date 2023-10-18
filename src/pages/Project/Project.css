@@ -1,12 +1,6 @@
-.modal__container{
+.project__container{
     width: 80%;
-
     margin: auto;
-    padding: 10px 20px;
-    border-radius: 20px;
-
-    position: relative;
-    top: 15%;
 
 }
 
@@ -20,58 +14,54 @@
     color:var(--secondary);
 }
 
-.modal__header{
+.project__header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 50px;
 }
 
-.modal__body{
+.project__body{
     display: flex;
     flex-direction: row-reverse;
 }
 
-.modal__body h4{
+.project__body h4{
     text-align: left;
     margin-bottom: 10px;
 }
 
-.modal__description, .modal__images{
-    max-height: 600px;
-}
-
-.modal__description{
+.project__description{
     width: 50%;
 }
 
-.modal__images{
+.project__images{
     display: flex;
     flex-direction: column;
     width: 50%;
 }
 
-.modal__images img{
+.project__images img{
     width: 80%;
     margin: auto;
     padding: 10px 0;
 }
 
 @media (max-width: 767px){
-    .modal__description, .modal__images{
+    .project__description, .project__images{
         max-height: 100%;
         width: 100%;
         padding: 10px 0;
     }
-    .modal__body{
+    .project__body{
         flex-direction: column-reverse;
     }
 
-    .modal__images img:last-child{
+    .project__images img:last-child{
        display: none;
     }
 
-    .modal__header{
+    .project__header{
         margin: 0 10px;
     }
 }
