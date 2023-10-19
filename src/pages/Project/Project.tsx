@@ -1,6 +1,6 @@
 import Button from '../../components/Button/Button';
-import img1 from '../../assets/images/Projet2/bookie2.png';
-import img2 from '../../assets/images/Projet2/bookie1-tab.png';
+import img1 from '/assets/images/Projet2/bookie2.png';
+import img2 from '/assets/images/Projet2/bookie1-tab.png';
 import { useParams, useNavigate } from 'react-router-dom'; 
 import { useEffect } from 'react';
 import datas from '../../datas/projects.json';
