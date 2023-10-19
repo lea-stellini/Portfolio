@@ -5,18 +5,18 @@
         "technologies": "HTML | CSS",
         "description": "Booki est un site internet permettant aux usagers de trouver des hébergements et activités dans la ville de leur choix. Pour ce projet, j’ai été chargé d’intégrer l’interface du site en HTML et CSS pour une version desktop, tablette et mobile.",
         "competences": ["Savoir implémenter une interface responsive avec HTML et CSS", "Versionner son projet avec Git et Github", "Intégrer du contenu conformément à une maquette avec HTML et CSS", "Installer un environnement de développement web"],
-        "cover": "/assets/images/Projet2/bookie2.png",
+        "cover": "Portfolio-pro/assets/images/Projet2/bookie2.png",
         "pictures": [
-            "/assets/images/Projet2/bookie2.png",
-            "/assets/images/Projet2/bookie1-mobile.png",
-            "/assets/images/Projet2/bookie2-mobile.png",
-            "/assets/images/Projet2/bookie3-mobile.png",
-            "/assets/images/Projet2/bookie4-mobile.png",
-            "/assets/images/Projet2/bookie5-mobile.png",
-            "/assets/images/Projet2/bookie6-mobile.png",
-            "/assets/images/Projet2/bookie1-tab.png",
-            "/assets/images/Projet2/bookie2-tab.png",
-            "/assets/images/Projet2/bookie3-tab.png"
+            "Portfolio-pro/assets/images/Projet2/bookie2.png",
+            "Portfolio-pro/assets/images/Projet2/bookie1-mobile.png",
+            "Portfolio-pro/assets/images/Projet2/bookie2-mobile.png",
+            "Portfolio-pro/assets/images/Projet2/bookie3-mobile.png",
+            "Portfolio-pro/assets/images/Projet2/bookie4-mobile.png",
+            "Portfolio-pro/assets/images/Projet2/bookie5-mobile.png",
+            "Portfolio-pro/assets/images/Projet2/bookie6-mobile.png",
+            "Portfolio-pro/assets/images/Projet2/bookie1-tab.png",
+            "Portfolio-pro/assets/images/Projet2/bookie2-tab.png",
+            "Portfolio-pro/assets/images/Projet2/bookie3-tab.png"
         ],
         "cta": "voir le site",
         "link": "lea-stellini.github.io/Booki/"
@@ -27,15 +27,15 @@
         "technologies": "HTML | CSS",
         "description": "Booki est un site internet permettant aux usagers de trouver des hébergements et activités dans la ville de leur choix. Pour ce projet, j’ai été chargé d’intégrer l’interface du site en HTML et CSS pour une version desktop, tablette et mobile.",
         "competences": ["Savoir implémenter une interface responsive avec HTML et CSS", "Versionner son projet avec Git et Github", "Intégrer du contenu conformément à une maquette avec HTML et CSS", "Installer un environnement de développement web"],
-        "cover":"/assets/images/Projet3/Bluel1.webp",
+        "cover":"Portfolio-pro/assets/images/Projet3/Bluel1.webp",
         "pictures": [
-            "/assets/images/Projet3/Bluel1.png",
-            "/assets/images/Projet3/Bluel1.png",
-            "/assets/images/Projet3/Bluel1.png",
-            "/assets/images/Projet3/Bluel1.png",
-            "/assets/images/Projet3/Bluel1.png",
-            "/assets/images/Projet3/Bluel1.png",
-            "/assets/images/Projet3/Bluel1.png"
+            "Portfolio-pro/assets/images/Projet3/Bluel1.png",
+            "Portfolio-pro/assets/images/Projet3/Bluel1.png",
+            "Portfolio-pro/assets/images/Projet3/Bluel1.png",
+            "Portfolio-pro/assets/images/Projet3/Bluel1.png",
+            "Portfolio-pro/assets/images/Projet3/Bluel1.png",
+            "Portfolio-pro/assets/images/Projet3/Bluel1.png",
+            "Portfolio-pro/assets/images/Projet3/Bluel1.png"
         ],
         "cta": "voir le site",
         "link": "https://lea-stellini.github.io/SophieBuel-Portfolio/"
@@ -46,15 +46,15 @@
         "technologies": "HTML | CSS",
         "description": "Booki est un site internet permettant aux usagers de trouver des hébergements et activités dans la ville de leur choix. Pour ce projet, j’ai été chargé d’intégrer l’interface du site en HTML et CSS pour une version desktop, tablette et mobile.",
         "competences": ["Savoir implémenter une interface responsive avec HTML et CSS", "Versionner son projet avec Git et Github", "Intégrer du contenu conformément à une maquette avec HTML et CSS", "Installer un environnement de développement web"],
-        "cover":"/assets/images/Projet5/nina1.webp",
+        "cover":"Portfolio-pro/assets/images/Projet5/nina1.webp",
         "pictures": [
-            "/assets/images/Projet5/nina2.png",
-            "/assets/images/Projet5/nina3.png",
-            "/assets/images/Projet5/nina4.png",
-            "/assets/images/Projet5/nina5.png",
-            "/assets/images/Projet5/nina6.png",
-            "/assets/images/Projet5/nina7.png",
-            "/assets/images/Projet5/nina8.png"
+            "Portfolio-pro/assets/images/Projet5/nina2.png",
+            "Portfolio-pro/assets/images/Projet5/nina3.png",
+            "Portfolio-pro/assets/images/Projet5/nina4.png",
+            "Portfolio-pro/assets/images/Projet5/nina5.png",
+            "Portfolio-pro/assets/images/Projet5/nina6.png",
+            "Portfolio-pro/assets/images/Projet5/nina7.png",
+            "Portfolio-pro/assets/images/Projet5/nina8.png"
         ],
         "cta": "voir le site",
         "link": "https://lea-stellini.github.io/Nina-Carducci-Photographe/"
@@ -65,14 +65,14 @@
         "technologies": "HTML | CSS",
         "description": "Booki est un site internet permettant aux usagers de trouver des hébergements et activités dans la ville de leur choix. Pour ce projet, j’ai été chargé d’intégrer l’interface du site en HTML et CSS pour une version desktop, tablette et mobile.",
         "competences": ["Savoir implémenter une interface responsive avec HTML et CSS", "Versionner son projet avec Git et Github", "Intégrer du contenu conformément à une maquette avec HTML et CSS", "Installer un environnement de développement web"],
-        "cover":"/assets/images/Projet6/kasa1.webp",
+        "cover":"Portfolio-pro/assets/images/Projet6/kasa1.webp",
         "pictures": [
-            "/assets/images/Projet6/kasa2.png",
-            "/assets/images/Projet6/kasa3.png",
-            "/assets/images/Projet6/kasa4.png",
-            "/assets/images/Projet6/kasa5.png",
-            "/assets/images/Projet6/kasa6.png",
-            "/assets/images/Projet6/kasa7.png"
+            "Portfolio-pro/assets/images/Projet6/kasa2.png",
+            "Portfolio-pro/assets/images/Projet6/kasa3.png",
+            "Portfolio-pro/assets/images/Projet6/kasa4.png",
+            "Portfolio-pro/assets/images/Projet6/kasa5.png",
+            "Portfolio-pro/assets/images/Projet6/kasa6.png",
+            "Portfolio-pro/assets/images/Projet6/kasa7.png"
         ],
         "cta": "voir le site",
         "link": "https://github.com/lea-stellini/Kasa"
@@ -83,7 +83,7 @@
         "technologies": "HTML | CSS",
         "description": "Booki est un site internet permettant aux usagers de trouver des hébergements et activités dans la ville de leur choix. Pour ce projet, j’ai été chargé d’intégrer l’interface du site en HTML et CSS pour une version desktop, tablette et mobile.",
         "competences": ["Savoir implémenter une interface responsive avec HTML et CSS", "Versionner son projet avec Git et Github", "Intégrer du contenu conformément à une maquette avec HTML et CSS", "Installer un environnement de développement web"],
-        "cover":"/assets/images/Projet7/grimoire1.webp",
+        "cover":"Portfolio-pro/assets/images/Projet7/grimoire1.webp",
         "cta": "voir le repository",
         "link": "https://github.com/lea-stellini/Mon-vieux-Grimoire"
     }
