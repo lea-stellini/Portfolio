@@ -1,9 +1,11 @@
 body{
   margin: 0;
+  background-color: var(--bg);
 }
 
 h1{
   font-size: 60px;
+  color: var(--text)
 }
 
 h2{
@@ -31,12 +33,14 @@ h1, h2, li{
 h3, p, label{
   font-family: 'Montserrat';
   font-weight: 400;
+  color: var(--text)
 }
 
 h4{
   font-family: 'Montserrat';
   font-weight: 600;
   margin-top: 0;
+  color: var(--text)
 }
 
 @media (max-width: 767px){

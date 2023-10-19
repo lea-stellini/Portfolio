@@ -35,3 +35,15 @@
 .form__message{
     height: 80px;
 }
+
+input[type="email"], textarea {
+
+    background-color : var(--bg); 
+  
+}
+
+@media (max-width: 767px){
+    .form{
+        width: 80%;
+    }
+}

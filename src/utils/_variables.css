@@ -1,6 +1,16 @@
 :root{
     --primary: #FB8500;
     --secondary: #FFEEDB;
-    --black: #252525;
-    --white: #FFF7EE;
+    --tertiary: #FFF7EE;
+    --text: #252525;
+    --bg: #FFF;
+   
+}
+
+[data-theme="dark"]{
+    --primary: #AD6511;
+    --secondary: #45423F;
+    --tertiary: #5b5b5b;
+    --bg: #252525;
+    --text: #b3b3b3;
 }

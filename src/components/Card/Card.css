@@ -16,8 +16,8 @@
 	border-radius: 7px;
 	padding: 20px 25px;
 	position: relative;
-	box-shadow: 0 1px 6px rgba(0,0,0, 0.175);
-	background-color: #fff;
+	box-shadow: 0 1px 6px var(--secondary);
+	background-color: var(--bg);
 }
 
 .card:after{
@@ -47,6 +47,15 @@
 
 .card__list{
     text-align: left;
+	list-style: none;
+}
+
+.card__list p::before{
+	content: "•";
+	color:var(--text);
+	display: inline-block; 
+	width: 1em;
+  	margin-left: -1em
 }
 
 .card__list p{

@@ -35,6 +35,10 @@
     width: 50%;
 }
 
+.project__description li{
+    color: var(--text);
+}
+
 .project__images{
     display: flex;
     flex-direction: column;
