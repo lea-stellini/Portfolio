@@ -12,7 +12,6 @@ import { BrowserRouter as Router } from 'react-router-dom'
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <HashRouter>
-      <Router>
         <Header />
         <Routes>
           <Route path="/" element={<App />}></Route>
@@ -20,7 +19,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
           <Route path="*" element={<Error />}></Route>
         </Routes>
         <Footer />
-      </Router>
     </HashRouter>
   </React.StrictMode>,
 )
