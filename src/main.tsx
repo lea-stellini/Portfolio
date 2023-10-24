@@ -6,19 +6,21 @@ import App from './pages/App/App'
 import Error from './pages/Error/Error'
 import Project from './pages/Project/Project'
 import './index.css'
-import { Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import { BrowserRouter as Router } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <Router>
-      <Header />
-      <Routes>
-        <Route path="/" element={<App />}></Route>
-        <Route path="/project/:id" element={<Project />}></Route>
-        <Route path="*" element={<Error />}></Route>
-      </Routes>
-      <Footer />
-    </Router>
+    <HashRouter>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<App />}></Route>
+          <Route path="/project/:id" element={<Project />}></Route>
+          <Route path="*" element={<Error />}></Route>
+        </Routes>
+        <Footer />
+      </Router>
+    </HashRouter>
   </React.StrictMode>,
 )
