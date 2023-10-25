@@ -47,11 +47,13 @@ function Project(){
                                 })
                             }
                         </ul>
-                        <Button title={project.cta} onClick={handleClick}/>
+                        <div className='project__btn'>                        
+                            <Button title={project.cta} onClick={handleClick}/>
+                        </div>
                     </div>
                     <div className='project__images'>
-                        <img src={img2} alt="" />
-                        <img src={img1} alt="" />
+                        <img src={project.pictures?.[0]} alt="" />
+                        <img src={project.pictures?.[1]} alt="" />
                     </div>
                 </div>
                 

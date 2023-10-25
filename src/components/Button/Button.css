@@ -11,6 +11,7 @@
     height: 40px;
     color: var(--tertiary);
     text-transform: uppercase;
+    width:100%;
 }
 
 .btn:hover{
