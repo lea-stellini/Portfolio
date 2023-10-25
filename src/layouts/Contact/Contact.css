@@ -37,13 +37,21 @@
 }
 
 input[type="email"], textarea {
-
     background-color : var(--bg); 
   
+}
+
+.form__btn{
+    width: 25%;
+    margin: auto;
 }
 
 @media (max-width: 767px){
     .form{
         width: 80%;
+    }
+
+    .form__btn{
+        width: 45%;
     }
 }

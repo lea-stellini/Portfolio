@@ -57,7 +57,10 @@ function Skills(){
                         </div>
                     </div>
                 </div>
-                <Button title="CV" onClick={handleClick}/>
+                <div className='skill__btn'>
+                    <Button title="CV" onClick={handleClick}/>
+                </div>
+                
             </div>
         </div>
     )

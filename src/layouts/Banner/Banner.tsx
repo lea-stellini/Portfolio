@@ -14,7 +14,9 @@ function Banner() {
             <div className='banner__container'>
                 <div className='banner'>
                     <h1 className='banner__title'>Je suis Léa Stellini, <br /> développeuse <br /> front-end</h1>
-                    <Button title="CV" onClick={handleClick}/>
+                    <div className='banner__btn'>
+                        <Button title="CV" onClick={handleClick}/>
+                    </div>
                 </div>
                 <img className='banner__img' src={avatar} alt="photo de Léa" />
             </div>  

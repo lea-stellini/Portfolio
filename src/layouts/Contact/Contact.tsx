@@ -24,7 +24,9 @@ const Contact = () => {
                     <label>Message</label>
                     <textarea placeholder="Votre message" name="message" required className='form__message' />
                 </div>
-                <Button title="Envoyer" />
+                <div className='form__btn'>
+                    <Button title="Envoyer" />
+                </div>
             </form>
         </div>
     </div>

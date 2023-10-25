@@ -19,6 +19,10 @@
     text-align: center;
 }
 
+.banner__btn{
+    width: 20%;
+}
+
 .banner__img{
     padding: 20px;
     width: 20%;
@@ -30,6 +34,10 @@
     .banner__container{
        flex-direction: column-reverse;
     } 
+
+    .banner__btn{
+        width: 35%;
+    }
 
     .banner__img{
         width: 50%;
