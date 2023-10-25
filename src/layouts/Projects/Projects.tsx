@@ -14,7 +14,7 @@ function Projects(){
                 {
                     datas.map( data => {
                         return ( 
-                        <ProjectCard link={`#/project/${data.id}`} 
+                        <ProjectCard link={`/project/${data.id}`} 
                                     key={data.id} 
                                     cover={data.cover} 
                                     title={data.title} />

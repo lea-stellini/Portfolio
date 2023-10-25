@@ -14,8 +14,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <Router>
         <Header />
         <Routes>
-          <Route path="/Portfolio-pro/" element={<App />}></Route>
-          <Route path="/Portfolio-pro/project/:id" element={<Project />}></Route>
+          <Route path="/" element={<App />}></Route>
+          <Route path="/project/:id" element={<Project />}></Route>
           <Route path="*" element={<Error />}></Route>
         </Routes>
         <Footer />
