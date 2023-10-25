@@ -1,8 +1,12 @@
 import './Contact.css'
 import Divider from '../../components/Divider/Divider';
 import Button from '../../components/Button/Button';
+import { useState } from 'react';
 
 const Contact = () => {
+
+    const [inputText, setInputText] = useState('');
+    const [textareaText, setTextareaText] = useState('');
 
   return (
     <div id="contact">
@@ -17,15 +21,15 @@ const Contact = () => {
                 >
                 
                 <div className='form__input'>
-                    <label>Email</label>
-                    <input type="email" placeholder="Email" name="email" required  className='form__email'/>
+                    <label htmlFor='email'>Email</label>
+                    <input type="email" placeholder="Email" name="email" required  className='form__email' onChange={(e) => setInputText(e.target.value)} value={inputText}/>
                 </div>
                 <div className='form__input'>
-                    <label>Message</label>
-                    <textarea placeholder="Votre message" name="message" required className='form__message' />
+                    <label htmlFor='message'>Message</label>
+                    <textarea placeholder="Votre message" name="message" required className='form__message' onChange={(e) => setTextareaText(e.target.value)} value={textareaText}/>
                 </div>
                 <div className='form__btn'>
-                    <Button title="Envoyer" />
+                    <Button title="Envoyer"/>
                 </div>
             </form>
         </div>
