@@ -10,7 +10,7 @@
             "Intégrer du contenu conformément à une maquette avec HTML et CSS", 
             "Installer un environnement de développement web"
         ],
-        "cover": "/assets/images/Projet2/bookie1.webp",
+        "cover": "/assets/images/Projet2/bookie.png",
         "pictures": [
             "/assets/images/Projet2/bookie1-tab.png",
             "/assets/images/Projet2/bookie2-tab.png"
@@ -28,7 +28,7 @@
             "Récupérer les données utilisateurs dans le JavaScript via des formulaires", 
             "Gérer les événements utilisateurs avec JavaScript"
         ],
-        "cover":"/assets/images/Projet3/Bluel1.webp",
+        "cover":"/assets/images/Projet3/bluel.png",
         "pictures": [
             "/assets/images/Projet3/Bluel7.png",
             "/assets/images/Projet3/Bluel8.png"
@@ -50,7 +50,7 @@
             "Minification de fichiers",
             "Rédaction d’un rapport d'intervention"
         ],
-        "cover":"/assets/images/Projet5/nina1.webp",
+        "cover":"/assets/images/Projet5/nina.png",
         "pictures": [
             "/assets/images/Projet5/nina3.png",
             "/assets/images/Projet5/nina8.png"
@@ -70,7 +70,7 @@
             "Développer une interface web avec Sass",
             "Configurer la navigation entre les pages de l’application avec React Router"
         ],
-        "cover":"/assets/images/Projet6/kasa1.webp",
+        "cover":"/assets/images/Projet6/kasa.png",
         "pictures": [
             "/assets/images/Projet6/kasa5.png",
             "/assets/images/Projet6/kasa6.png"
@@ -88,9 +88,10 @@
             "Stocker des données de manière sécurisée", 
             "Mettre en oeuvre des opérations CRUD de manière sécurisée"
         ],
-        "cover":"/assets/images/Projet7/grimoire1.webp",
+        "cover":"/assets/images/Projet7/grimoire.png",
         "pictures": [
-            "/assets/images/Projet7/grimoire1.webp"
+            "/assets/images/Projet7/grimoire1.png",
+            "/assets/images/Projet7/grimoire2.png"
         ],
         "cta": "voir le repository",
         "link": "https://github.com/lea-stellini/Mon-vieux-Grimoire"
