@@ -1,5 +1,4 @@
 import { ChangeEventHandler } from 'react';
-
 import './Toggle.css'
 
 
