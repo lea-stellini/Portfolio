@@ -11,9 +11,9 @@
     display: flex;
 }
 
-.footer__icons img{
-    width: 30px;
-    height: 30px;
-    padding: 10px 30px;
+.footer__icons .icons{
     cursor: pointer;
+    font-size: 40px;
+    padding: 0 10px;
+    color: var(--text);
 }

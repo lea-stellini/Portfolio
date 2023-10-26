@@ -14,12 +14,17 @@
     display: grid;
     grid: auto-flow / 1fr 1fr 1fr 1fr 1fr;
     gap: 20% 0;
+    margin: auto;
 }
 
-.skill__grid img{
-    width: 20%;
-    margin: auto;
-    
+.skill__grid .icons{
+    font-size: 40px;
+    color: var(--text);
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
 }
 
 .skill__btn{
@@ -31,7 +36,6 @@
 @media (max-width: 767px){
     .skill__grid{
         grid: auto-flow / 1fr 1fr 1fr;
-        gap: 10% 0;
     }
 
     .skill__grid img{
