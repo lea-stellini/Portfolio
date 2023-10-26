@@ -43,7 +43,7 @@
 }
 
 .nav__hamburger{
-    background-color: var(--tertiary);
+    background-color: var(--secondary);
     width: 100vw;
     height: 50vh;
     display: inline;

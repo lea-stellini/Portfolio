@@ -39,7 +39,7 @@ function Path(){
                     <div>
                         <div className='dot'></div>
                         <Card 
-                            title="Formation en autodidacte"
+                            title="Apprentissage en autodidacte"
                             year="Depuis 2020"
                             where="Udemy, Skillshare, Codecademy"
                             skills={["Création de sites web avec HTML5 et CSS3",
