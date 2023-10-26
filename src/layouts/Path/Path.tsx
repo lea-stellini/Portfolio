@@ -13,6 +13,17 @@ function Path(){
                     <div>
                         <div className='dot'></div>
                         <Card 
+                            title="Développeuse web en alternance chez Génération Zhéros"
+                            year="Décembre 2022 - Juin 2023"
+                            where="Rennes"
+                            skills={["Mise en place de tests fonctionnels et E2E avec génération d'une base de données",
+                            "Développement de fonctionnalités avec vue.js",
+                            "Développement de la page d’acceuille du site Génération Zhéros avec Wordpress" ]}
+                             />
+                    </div>
+                    <div>
+                        <div className='dot'></div>
+                        <Card 
                             title="Formation développeuse web en alternance"
                             year="2022 - 2023"
                             where="OpenClassroom"
@@ -21,6 +32,7 @@ function Path(){
                             "Communiquer avec le back-end de l'application grâce à une API",
                             "Créer, gérer et afficher le contenu d'une base de données",
                             "Résoudre des problèmes techniques avec un langage de programmation et des algorithmes"]}
+                            inverted
                             /> 
                     </div>
                     
@@ -34,7 +46,7 @@ function Path(){
                                 "Animer des pages web avec CSS3",
                                 "Construire un site internet responsive",
                                 "Faire réagir des pages web avec JavaScript" ]}
-                            inverted />
+                        />
                     </div>
                         
                     <div>
@@ -45,6 +57,7 @@ function Path(){
                              where="Saint-Mathurin sur Loire | 49"
                              skills={["Mise à jour du site internet et des réseaux sociaux", "Planification et organisation du planning animation",
                              "Encadrement de jeunes en service civique" ]}
+                             inverted
                             />
                     </div>
                         
