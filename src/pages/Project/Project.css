@@ -54,9 +54,9 @@
 
 .project__images img{
     width: 80%;
-    padding: 10px 0;
     margin: 20px;
     box-shadow: 0 1px 6px rgba(0,0,0, 0.175);
+    border-radius: 5px;
 }
 
 @media (max-width: 767px){

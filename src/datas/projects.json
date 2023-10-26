@@ -10,18 +10,10 @@
             "Intégrer du contenu conformément à une maquette avec HTML et CSS", 
             "Installer un environnement de développement web"
         ],
-        "cover": "/assets/images/Projet2/bookie2.png",
+        "cover": "/assets/images/Projet2/bookie1.webp",
         "pictures": [
-            "/assets/images/Projet2/bookie2.png",
-            "/assets/images/Projet2/bookie1-mobile.png",
-            "/assets/images/Projet2/bookie2-mobile.png",
-            "/assets/images/Projet2/bookie3-mobile.png",
-            "/assets/images/Projet2/bookie4-mobile.png",
-            "/assets/images/Projet2/bookie5-mobile.png",
-            "/assets/images/Projet2/bookie6-mobile.png",
             "/assets/images/Projet2/bookie1-tab.png",
-            "/assets/images/Projet2/bookie2-tab.png",
-            "/assets/images/Projet2/bookie3-tab.png"
+            "/assets/images/Projet2/bookie2-tab.png"
         ],
         "cta": "voir le site",
         "link": "https://lea-stellini.github.io/Booki/"
@@ -38,11 +30,6 @@
         ],
         "cover":"/assets/images/Projet3/Bluel1.webp",
         "pictures": [
-            "/assets/images/Projet3/Bluel2.png",
-            "/assets/images/Projet3/Bluel3.png",
-            "/assets/images/Projet3/Bluel4.png",
-            "/assets/images/Projet3/Bluel5.png",
-            "/assets/images/Projet3/Bluel6.png",
             "/assets/images/Projet3/Bluel7.png",
             "/assets/images/Projet3/Bluel8.png"
         ],
@@ -65,12 +52,7 @@
         ],
         "cover":"/assets/images/Projet5/nina1.webp",
         "pictures": [
-            "/assets/images/Projet5/nina2.png",
             "/assets/images/Projet5/nina3.png",
-            "/assets/images/Projet5/nina4.png",
-            "/assets/images/Projet5/nina5.png",
-            "/assets/images/Projet5/nina6.png",
-            "/assets/images/Projet5/nina7.png",
             "/assets/images/Projet5/nina8.png"
         ],
         "cta": "voir le site",
@@ -90,12 +72,8 @@
         ],
         "cover":"/assets/images/Projet6/kasa1.webp",
         "pictures": [
-            "/assets/images/Projet6/kasa2.png",
-            "/assets/images/Projet6/kasa3.png",
-            "/assets/images/Projet6/kasa4.png",
             "/assets/images/Projet6/kasa5.png",
-            "/assets/images/Projet6/kasa6.png",
-            "/assets/images/Projet6/kasa7.png"
+            "/assets/images/Projet6/kasa6.png"
         ],
         "cta": "voir le site",
         "link": "https://lea-stellini-kasa.netlify.app"
