@@ -8,9 +8,9 @@
 }
 
 [data-theme="dark"]{
-    --primary: #AD6511;
+    --primary: #c06905;
     --secondary: #45423F;
-    --tertiary: #5b5b5b;
+    --tertiary: #bdbbbb;
     --text: #b3b3b3;
     --bg: #252525;
 }

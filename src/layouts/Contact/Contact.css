@@ -26,6 +26,7 @@
     border: solid 1px var(--primary);
     padding: 10px;
     margin: 10px 0;
+    color: var(--text);
 }
 
 .form__email{
