@@ -10,7 +10,7 @@ type Props = {
 function ProjectCard({link, cover, title}: Props) {
     return(
         <Link to={link} className='img__container'>
-            <img src={cover} alt={`photo du projet ${title}`}/>
+            <img src={cover} alt={`photo du projet ${title}`} width={476} height={270}/>
         </Link>
     )
 
