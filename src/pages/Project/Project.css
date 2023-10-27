@@ -33,6 +33,8 @@
 
 .project__description{
     width: 50%;
+    text-align: justify;
+    line-height: 1.5;
 }
 
 .project__description li{

@@ -3,7 +3,7 @@
         "id":"a1",
         "title": "Bookie",
         "technologies": "HTML | CSS",
-        "description": "Booki est un site internet permettant aux usagers de trouver des hébergements et activités dans la ville de leur choix. Pour ce projet, j’ai été chargé d’intégrer l’interface du site en HTML et CSS pour une version desktop, tablette et mobile.",
+        "description": "Booki est un site internet permettant aux utilisateurs de trouver des hébergements et activités dans la ville de leur choix. Pour ce projet, j’ai été chargé d’intégrer l’interface du site en HTML et CSS pour une version desktop, tablette et mobile.",
         "competences": [
             "Savoir implémenter une interface responsive avec HTML et CSS", 
             "Versionner son projet avec Git et Github", 
@@ -22,7 +22,7 @@
         "id":"a2",
         "title": "Sophie Buel - Portfolio ",
         "technologies": "HTML | CSS | JavaScript",
-        "description": "Participation à la conception du site portfolio d’une architecte d’intérieur. Pour ce projet, mes missions ont été de : développer la page de présentation des travaux de l’architecte (galerie avec filtres), développer la page de connexion à l’espace administrateur et de développer une modale permettant d’ajouter de nouveaux projets avec une photo.",
+        "description": "Participation à la conception du portfolio d’une architecte d’intérieur. Pour ce projet, mes missions ont été de : développer la page de présentation des travaux de l’architecte, développer la page de connexion permettant d'accéder à l’espace administrateur et de développer une modale pour ajouter de nouveaux projets avec une photo.",
         "competences": [
             "Manipuler les éléments du DOM avec JavaScript", 
             "Récupérer les données utilisateurs dans le JavaScript via des formulaires", 
@@ -40,7 +40,7 @@
         "id":"a3",
         "title": "Nina Carducci - Photographe",
         "technologies": "HTML | Bootstrap | JavaScript",
-        "description": "Réalisation de l’optimisation et corrections de bug du site de la photographe Nina Carducci. Pour ce projet, j’ai réalisé une optimisation globale du site (performances, SEO et accessibilité), mis en place le référencement local à l’aide de Schema.org, ajouté les métas pour les réseaux sociaux, corrigé des bugs Une fois se travaille fait, j’ai rédigé un rapport détaillé de mon intervention, contenant également, un cahier de recette pour tester le site. De plus, j’ai remplacé le code jQuery présent par du JavaScript pour une meilleure performance du site. ",
+        "description": "Réalisation de l’optimisation et corrections de bug du site de la photographe Nina Carducci. Pour ce projet, j’ai réalisé une optimisation globale du site (performances, SEO et accessibilité), mis en place le référencement local à l’aide de Schema.org, ajouté les métas pour les réseaux sociaux, corrigé des bugs. Une fois se travaille fait, j’ai rédigé un rapport détaillé de mon intervention, contenant également, un cahier de recette pour tester le site. Une des difficultés de ce projet a été de remplacer le code jQuery présent par du JavaScript pour une meilleure performance du site. ",
         "competences": [
             "Optimiser les performances d’un site web avec l’aide de GTmetrix, Lighthouse, Wave", 
             "Débugueur un site web grâce à Chrome Devtools", 
@@ -62,7 +62,7 @@
         "id":"a4",
         "title": "Kasa",
         "technologies": "React | Sass",
-        "description": "Kasa est un site permettant la location d’appartements entre particuliers. Pour ce projet, j’ai participé à la refont du site en développent l’ensemble de l’application en suivant les maquettes Figma. L’application a été développé en version desktop et mobile.",
+        "description": "Kasa est un site permettant la location d’appartements entre particuliers. Pour ce projet, j’ai participé à la refonte du site en développant l’ensemble de l’application en suivant des maquettes Figma. L’application a été développée en version desktop et mobile. La difficulté que j'ai rencontrée lors de ce projet a été la réalisation de l'animation à l'ouverture et fermeture des collapses.",
         "competences": [
             "Mettre en oeuvre des animations CSS", 
             "Développer des éléments de l’interface d’un site web grâce à des composants React", 

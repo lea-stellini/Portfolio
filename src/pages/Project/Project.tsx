@@ -35,8 +35,7 @@ function Project(){
                         <h4>Technologies</h4>
                         <p>{project.technologies}</p>
                         <h4>Descriptif</h4>
-                        <p>{project.description}
-                        </p>
+                        <p>{project.description}</p>
                         <h4>Compétences</h4>
                         <ul>
                             {
