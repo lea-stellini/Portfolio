@@ -6,7 +6,7 @@
 
 .skill{
     width: 60%;
-    margin: auto;
+    margin: 30px auto;
     padding: 20px 0;
 }
 
@@ -24,12 +24,16 @@
 
 .icon{
     display: flex;
-    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
 }
 
 .skill__btn{
     width: 10%;
     margin: auto;
+    padding-top: 20px;
 }
 
 

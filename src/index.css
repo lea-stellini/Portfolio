@@ -30,7 +30,7 @@ h1, h2, li{
   font-family: 'Roboto', sans-serif;
 }
 
-h3, p, label{
+h3, p, label, span{
   font-family: 'Montserrat';
   font-weight: 400;
   color: var(--text)
@@ -52,7 +52,7 @@ h4{
     font-size: 20px;
   }
 
-  h4, p, li, label{
+  h4, p, li, label, span{
     font-size: 16px;
   }
 }

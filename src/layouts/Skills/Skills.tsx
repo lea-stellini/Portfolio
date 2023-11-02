@@ -31,25 +31,32 @@ function Skills(){
                         <h3>Front-End</h3>
                         <div className='skill__grid'>
                             <IconContext.Provider value={{ className:"icons"}}>
-                                <span className='icon'>
+                                <span className='icon'> 
+                                    HTML
                                     <FaHtml5 aria-labelledby="Html5"/>
                                 </span>
                                 <span className='icon'>
+                                    ReactJS
                                     <FaReact aria-labelledby="React"/>
                                 </span>
                                 <span className='icon'>
+                                    VueJS
                                     <FaVuejs aria-labelledby="Vuejs"/>
                                 </span>
                                 <span className='icon'>
+                                    JavaScript
                                     <BiLogoJavascript aria-labelledby="JavaScript"/>
                                 </span>
                                 <span className='icon'>
+                                    CSS
                                     <FaCss3Alt aria-labelledby="Css"/>
                                 </span>
                                 <span className='icon'>
+                                    Sass
                                     <FaSass aria-labelledby="Sass"/>
                                 </span>
                                 <span className='icon'>
+                                    Bootstrap
                                     <FaBootstrap aria-labelledby="Bootstrap"/>
                                 </span>
                             </IconContext.Provider>
@@ -60,12 +67,15 @@ function Skills(){
                         <div className='skill__grid'>
                             <IconContext.Provider value={{ className:"icons"}}>
                                 <span className='icon'>
+                                    NodeJS
                                     <FaNodeJs aria-labelledby="Nodejs"/>
                                 </span>
                                 <span className='icon'>
+                                    Express
                                     <SiExpress aria-labelledby="Express"/>
                                 </span>
                                 <span className='icon'>
+                                    MongoDB
                                     <SiMongodb aria-labelledby="Mongodb"/>
                                 </span>
                             </IconContext.Provider>
@@ -76,15 +86,19 @@ function Skills(){
                         <div className='skill__grid'>
                             <IconContext.Provider value={{ className:"icons"}}>
                                 <span className='icon'>
+                                    Figma
                                     <FaFigma aria-labelledby="Figma"/>
                                 </span>
                                 <span className='icon'>
+                                    Git
                                     <BiLogoGit aria-labelledby="Git"/>
                                 </span>
                                 <span className='icon'>
+                                    GitLab
                                     <SiGitlab aria-labelledby="GitLab"/>
                                 </span>
                                 <span className='icon'>
+                                    Postman
                                     <SiPostman aria-labelledby='Postman'/>
                                 </span>
                             </IconContext.Provider>
