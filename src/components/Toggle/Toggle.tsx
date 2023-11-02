@@ -2,7 +2,7 @@ import { ChangeEventHandler } from 'react';
 import './Toggle.css'
 
 
-const setDark = () => {
+  const setDark = () => {
 
     localStorage.setItem("theme", "dark");
     document.documentElement.setAttribute("data-theme", "dark");
