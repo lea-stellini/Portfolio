@@ -13,7 +13,7 @@ import {
     FaNodeJs, 
     FaFigma } from 'react-icons/fa';
 import { BiLogoJavascript, BiLogoGit } from 'react-icons/bi'
-import { SiExpress, SiMongodb, SiGitlab, SiPostman } from 'react-icons/si'
+import { SiExpress, SiMongodb, SiGitlab, SiPostman, SiCypress } from 'react-icons/si'
 
 function Skills(){
 
@@ -77,6 +77,17 @@ function Skills(){
                                 <span className='icon'>
                                     MongoDB
                                     <SiMongodb aria-labelledby="Mongodb"/>
+                                </span>
+                            </IconContext.Provider>
+                        </div>
+                    </div>
+                    <div className='skill'>
+                        <h3>Tests</h3>
+                        <div className='skill__grid'>
+                        <IconContext.Provider value={{ className:"icons"}}>
+                                <span className='icon'>
+                                    Cypress
+                                    <SiCypress aria-labelledby="Cypress"/>
                                 </span>
                             </IconContext.Provider>
                         </div>
