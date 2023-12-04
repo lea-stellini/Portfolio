@@ -1,7 +1,7 @@
 [
     {
         "id":"a1",
-        "title": "Bookie",
+        "title": "Booki",
         "technologies": "HTML | CSS",
         "description": "Booki est un site internet permettant aux utilisateurs de trouver des hébergements et activités dans la ville de leur choix. Pour ce projet, j’ai été chargé d’intégrer l’interface du site en HTML et CSS pour une version desktop, tablette et mobile.",
         "competences": [
