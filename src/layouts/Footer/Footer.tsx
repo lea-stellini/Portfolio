@@ -13,12 +13,12 @@ function Footer() {
             <div className='footer__container'>
                 <DarkModeToggle></DarkModeToggle>
                 <div className='footer__icons'>
-                    <a href="https://www.linkedin.com/in/lea-stellini/">
+                    <a href="https://www.linkedin.com/in/lea-stellini/" aria-label="lien vers mon compte LinkedIn" >
                         <IconContext.Provider value={{className:"icons"}}>
                             <FaLinkedin/>
                         </IconContext.Provider>
                     </a>
-                    <a href="https://github.com/lea-stellini">
+                    <a href="https://github.com/lea-stellini" aria-label="lien vers mon compte Github">
                         <IconContext.Provider value={{className:"icons"}}>
                             <FaGithub/>
                         </IconContext.Provider>    
